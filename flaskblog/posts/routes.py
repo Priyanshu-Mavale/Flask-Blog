@@ -21,6 +21,7 @@ def new_post():
     return render_template('create_post.html', title='New Post',
                            form=form, legend='New Post')
 # hello
+#hello once again
 
 @posts.route("/post/<int:post_id>")
 def post(post_id):
