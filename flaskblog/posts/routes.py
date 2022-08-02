@@ -20,7 +20,7 @@ def new_post():
         return redirect(url_for('main.home'))
     return render_template('create_post.html', title='New Post',
                            form=form, legend='New Post')
-
+# hello
 
 @posts.route("/post/<int:post_id>")
 def post(post_id):
